@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game Design Fundamentals</title>
+</head>
+<body>
+    <h1>Game Design Fundamentals</h1>
+    <p>This page is for aspiring tabletop game designers to flex their creative muscles as they lay the groundwork for their first game.</p>
+    <div style="border:2px solid black; padding-top:2px; padding-bottom:2px; padding-left:4px; padding-right:4px">
+        <p>These are some important points to consider when you first start working on a new design:</p>
+    <ul>
+        <li>What kind of game do you want to make?</li>
+        <li>Who is your target audience?</li>
+        <li>What type of experience do you want to create for the player?</li>
+        <li>Do you want to publish your game?</li>
+    </ul>
+    <p>To get started, consider watching this video below from Jamey Stegmaier:</p>
+    <iframe src="https://www.youtube.com/embed/VgEt7PysQgc"
+        frameborder="0"
+        width="560" height="315"
+        allowfullscreen>
+    </iframe>
+    </div>
+    <p>If you are interested in more of Jamey's videos, you can visit his YouTube channel <a href="https://www.youtube.com/channel/UCowWjmYzhSTC4YZ--ZnaYNw" target="_blank">here</a>.</p>
+    <hr />
+
+    <h2>Your First Game</h2>
+    <p>Now, let's start brainstorming your first game!</p>
+    <div style="border: solid 2px black; padding: .5rem;">
+    <form>
+        <p>While this is not a necessary first step, sometimes it helps me to think of a name for my game to get some ideas flowing. Even if this is a temporary "project name," I find that it helps not only with initial ideas but also as a way to discuss it with others while I work on it.</p>
+        <fieldset>
+            <legend>Game or Project Title</legend>
+            <p>
+                <label>Game Title: 
+                    <input name="title" />
+                </label>
+            </p>
+        </fieldset>
+
+        <br />
+        <p>What type of game do you want to make?</p>
+        <fieldset>
+            <legend>Game Type</legend>
+            <p>
+                <input type="radio" name="type"
+                id="type0" value="type0" />
+                <label for="type0">Competitive</label>
+            </p>
+            <p>
+                <input type="radio" name="type"
+                id="type1" value="type1" />
+                <label for="type1">Cooperative</label>
+            </p>
+            <p>
+                <input type="radio" name="type"
+                id="type2" value="type2" />
+                <label for="type2">Narrative</label>
+            </p>
+            <p>
+                <input type="radio" name="type"
+                id="type3" value="type3" />
+                <label for="type3">Party</label>
+            </p>
+        </fieldset>
+
+        <br />
+        <p>What type of player experience are you hoping to create? In other words, what kind of feelings or emotion do you want to create within the people playing your game?</p>
+        <fieldset>
+            <legend>Player Experience</legend>
+            <p>
+                <input type="checkbox" name="experience" id="joy" value="joy" />
+                <label for="joy">Joy</label>
+            </p>
+            <p>
+                <input type="checkbox" name="experience" id="suspense" value="suspense" />
+                <label for="suspense">Suspense</label>
+            </p>
+            <p>
+                <input type="checkbox" name="experience" id="humor" value="humor" />
+                <label for="humor">Humor</label>
+            </p>
+            <p>
+                <input type="checkbox" name="experience" id="competition" value="competition" />
+                <label for="competition">Competition</label>
+            </p>
+            <p>
+                <input type="checkbox" name="experience" id="teamwork" value="teamwork" />
+                <label for="teamwork">Teamwork</label>
+            </p>
+            <p>
+                <input type="checkbox" name="experience" id="excitement" value="excitement" />
+                <label for="excitement">Excitement</label>
+            </p>
+        </fieldset>
+
+        <br />
+        <p>Do you want to see your game published? If so, how would you market your game to both potential publishers and customers?</p>
+        <fieldset>
+            <legend>Publishing Your Game</legend>
+            <p>Do you want to publish your game?</p>
+            <p>
+                <input type="radio" name="answer"
+                id="answer0" value="answer0" />
+                <label for="answer0">Yes</label>
+            </p>
+            <p>
+                <input type="radio" name="answer"
+                id="answer1" value="answer1" />
+                <label for="answer1">No</label>
+            </p>
+            <p>
+                <label for="explination">Explain how you would market your game:</label>
+                <textarea id="explination" name="explination"></textarea>
+            </p>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
